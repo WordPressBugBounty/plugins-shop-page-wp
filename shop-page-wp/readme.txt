@@ -3,8 +3,8 @@ Contributors: leonmagee, justinmw
 Donate link: https://shoppagewp.com/donate
 Tags: shop, affiliate, store, amazon, amazon affiliates, amazon associates
 Requires at least: 3.0.1
-Tested up to: 6.4.1
-Stable tag: 1.3.1
+Tested up to: 6.7.2
+Stable tag: 1.3.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -127,9 +127,13 @@ From the Wordpress Admin, navigate to Shop Page WP > All products. The product p
 
 == Changelog ==
 
+= 1.3.2 =
+
+* Update to check compatibility with WordPress 6.7.2
+
 = 1.3.1 =
 
-* Update to check compatability with WordPress 6.4.1
+* Update to check compatibility with WordPress 6.4.1
 
 = 1.3.0 =
 
@@ -206,9 +210,13 @@ Initial Release
 
 == Upgrade Notice ==
 
+= 1.3.2 =
+
+* Update to check compatibility with WordPress 6.7.2
+
 = 1.3.1 =
 
-* Update to check compatability with WordPress 6.4.1
+* Update to check compatibility with WordPress 6.4.1
 
 = 1.3.0 =
 
