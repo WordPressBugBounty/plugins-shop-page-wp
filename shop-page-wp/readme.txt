@@ -1,10 +1,10 @@
 === Shop Page WP ===
 Contributors: leonmagee, justinmw
 Donate link: https://shoppagewp.com/donate
-Tags: shop, affiliate, store, amazon, amazon affiliates, amazon associates
+Tags: shop, affiliate, store, amazon, amazon affiliates
 Requires at least: 3.0.1
-Tested up to: 6.7.2
-Stable tag: 1.3.2
+Tested up to: 7.0.2
+Stable tag: 1.3.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -45,27 +45,27 @@ From the Gutenberg editor; click Add Block then either search for Shop Page WP o
 
 Default Shortcode
 
-`[shop-page-wp]`
+    [shop-page-wp]
 
 Specify Product Category
 
-`[shop-page-wp category='food']`
+    [shop-page-wp category='food']
 
 Specify Multiple Categories (separated by comma)
 
-`[shop-page-wp category='food,electronics']`
+    [shop-page-wp category='food,electronics']
 
 Specify Product ID (will override categories)
 
-`[shop-page-wp id='17']`
+    [shop-page-wp id='17']
 
 Specify Multiple IDs (separated by comma)
 
-`[shop-page-wp id='17,18']`
+    [shop-page-wp id='17,18']
 
 Specify Grid Size (will override default settings)
 
-`[shop-page-wp grid='3']`
+    [shop-page-wp grid='3']
 
 = Changing Image Sizes =
 
@@ -126,6 +126,10 @@ From the Wordpress Admin, navigate to Shop Page WP > All products. The product p
 
 
 == Changelog ==
+
+= 1.3.3 =
+
+* Update to fix bug with undefined index for settings dropdown
 
 = 1.3.2 =
 
@@ -209,6 +213,10 @@ Settings and Documentation Update
 Initial Release
 
 == Upgrade Notice ==
+
+= 1.3.3 =
+
+* Update to fix bug with undefined index for settings dropdown
 
 = 1.3.2 =
 
